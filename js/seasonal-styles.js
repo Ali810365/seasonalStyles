@@ -46,9 +46,7 @@ $("document").ready(function () {
                 $(".colors").css("display", "none");
                 break;
 
-            default:
-                console.log("Something went wrong.");
-                break;
+            
         }
     });
 });
