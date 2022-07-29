@@ -12,11 +12,11 @@ $("document").ready(function () {
 
             //spring 
             case "Spring":
-                
+                $("header h3").text("You're guide to amazing spring wear!");
                 $("html ").css("background-color", "#2B7129");
                 $("#wear").attr("src", "images/spring-wear.jpg");
                 $("#logo").attr("src", "images/spring.gif");
-                $("header h3").text("You're guide to amazing spring wear!");
+                $(".colors").css("display", "none");
                 break;
 
             //summer
