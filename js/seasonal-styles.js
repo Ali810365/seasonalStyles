@@ -12,11 +12,11 @@ $("document").ready(function () {
 
             //spring 
             case "Spring":
-                $("header h3").text("You're guide to amazing spring wear!");
+                
                 $("html ").css("background-color", "#2B7129");
                 $("#wear").attr("src", "images/spring-wear.jpg");
                 $("#logo").attr("src", "images/spring.gif");
-                $(".colors").css("display", "none");
+                $("header h3").text("You're guide to amazing spring wear!");
                 break;
 
             //summer
@@ -44,6 +44,10 @@ $("document").ready(function () {
                 $("#wear").attr("src", "images/winter-wear.jpg");
                 $("#logo").attr("src", "images/winter.gif");
                 $(".colors").css("display", "none");
+                break;
+
+            default:
+                console.log("Something went wrong.");
                 break;
         }
     });
