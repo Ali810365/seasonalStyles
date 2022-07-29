@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Test Page</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <style>
+        #myDiv{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <h1>jQuery Test Page</h1>
+    <div id="myDiv">This is a text inside a dive with an id of myDiv</div>
+
+    <script>
+        $(function(){
+            $("div#myDiv").css("background-color", "green");
+        })
+    </script>
+</body>
+</html>
